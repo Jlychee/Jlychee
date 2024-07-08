@@ -9,7 +9,7 @@
   <a href="https://t.me/smb_QT">
     <img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="https://t.me/smb_QT">
+  <a href="https://discordapp.com/users/588988533797289995/">
     <img src="https://img.shields.io/badge/Discrod-grey?style=for-the-badge&logo=discord&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
