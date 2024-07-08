@@ -14,8 +14,6 @@
   </a>
 </div>
 
-<div align="center"><img src="https://komarev.com/ghpvc/?username=Jlychee&style=flat-square&color=blue" alt=""/></div>
-
 ##
 
 <div id="snake" align="center">
