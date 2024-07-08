@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">Hi 👋, I'm Katya</h1>
-<h3 align="center">I'm interested in developing applications with a user interface, telegram bots, and parsing scripts. I tried my hand at Web development, but it hasn’t worked out yet. I'm still looking for the main direction))</h3>
+<h3 align="center">I'm interested in developing applications with a user interface, telegram bots, and parsing scripts. I tried my hand at Frontend, but it hasn’t worked out yet. I'm still looking for the main direction))</h3>
 
 <div id="badges" align="center">
   <a href="https://t.me/smb_QT">
@@ -15,6 +15,27 @@
 </div>
 
 <div align="center"><img src="https://komarev.com/ghpvc/?username=Jlychee&style=flat-square&color=blue" alt=""/></div>
+
+##
+
+<div id="snake" align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="github contribution grid snake animation"
+      src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
+</div>
+
+##
 
 ### :hammer_and_wrench: Languages and Tools :
 <p align="left"> 
@@ -28,9 +49,11 @@
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
 </p>
 
+##
+
 ### :fire: My Stats :
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Jlychee&theme=dark)](https://git.io/streak-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jlychee&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 
