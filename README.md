@@ -50,8 +50,6 @@
 
 ### :fire: My Stats :
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Jlychee&theme=dark)](https://git.io/streak-stats)
-##
-![Codewars](https://github.r2v.ch/codewars?user=Jlychee&theme=gradient)
 
 
 
