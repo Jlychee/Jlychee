@@ -2,8 +2,8 @@
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3pnMmhjcDlzOGJ2OWZqdG8wM3o5NW9iYzI3Mm5jcHk1dW9zaGl4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l7zabeVIt16efVp6wg/giphy.gif" width="100"/>
 </div>
 
-<h1 align="center">Hi 👋, I'm Kate</h1>
-<h3 align="center">I'm interested in developing applications with a user interface, telegram bots, and parsing scripts. I tried my hand at Frontend, but it hasn’t worked out yet. I'm still looking for the main direction))</h3>
+<h1 align="center">Hi 👋</h1>
+<h3 align="center">👾</h3>
 
 <div id="badges" align="center">
   <a href="https://t.me/smb_QT">
