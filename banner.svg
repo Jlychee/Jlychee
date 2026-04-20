@@ -1,0 +1,309 @@
+<svg width="800" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="40%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166"/>
+      <stop offset="50%" style="stop-color:#d2a8ff"/>
+      <stop offset="100%" style="stop-color:#79c0ff"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#f78166;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#d2a8ff;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#79c0ff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#79c0ff;stop-opacity:0"/>
+    </linearGradient>
+
+    <linearGradient id="wave1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d2a8ff;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#d2a8ff;stop-opacity:0.02"/>
+    </linearGradient>
+    <linearGradient id="wave2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#79c0ff;stop-opacity:0.14"/>
+      <stop offset="100%" style="stop-color:#79c0ff;stop-opacity:0.01"/>
+    </linearGradient>
+    <linearGradient id="wave3Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:0.09"/>
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0.01"/>
+    </linearGradient>
+
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2332"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+
+    <radialGradient id="screenReflect" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" style="stop-color:#79c0ff;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#79c0ff;stop-opacity:0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="monitorGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="bannerClip">
+      <rect width="800" height="220" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- ФОН -->
+  <rect width="800" height="220" fill="url(#bg)" rx="12"/>
+
+  <!-- ЧАСТИЦЫ -->
+  <circle cx="75" cy="28" r="1.5" fill="#d2a8ff" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="28;22;28" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="18" r="1" fill="#d2a8ff" opacity="0.25">
+    <animate attributeName="opacity" values="0.12;0.35;0.12" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="18;14;18" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="460" cy="15" r="1.2" fill="#d2a8ff" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="460;465;460" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="185" r="1" fill="#d2a8ff" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.28;0.1" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="95" r="0.8" fill="#d2a8ff" opacity="0.15">
+    <animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="95;90;95" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="540" cy="22" r="1" fill="#79c0ff" opacity="0.3">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="22;17;22" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="165" r="1.2" fill="#79c0ff" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="120;125;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="175" r="0.8" fill="#79c0ff" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.25;0.1" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="70" r="1" fill="#79c0ff" opacity="0.18">
+    <animate attributeName="opacity" values="0.08;0.25;0.08" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="70;65;70" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="580" cy="80" r="0.8" fill="#79c0ff" opacity="0.15">
+    <animate attributeName="opacity" values="0.08;0.2;0.08" dur="5.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="12" r="0.8" fill="#f78166" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="12;8;12" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="140" r="1" fill="#f78166" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.28;0.1" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="50;55;50" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="190" r="1.2" fill="#f78166" opacity="0.18">
+    <animate attributeName="opacity" values="0.08;0.25;0.08" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="420" cy="35" r="0.7" fill="#f78166" opacity="0.15">
+    <animate attributeName="opacity" values="0.07;0.2;0.07" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="35;31;35" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="560" cy="190" r="0.8" fill="#f78166" opacity="0.15">
+    <animate attributeName="opacity" values="0.07;0.18;0.07" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+
+    <!-- ВОЛНЫ -->
+  <g clip-path="url(#bannerClip)">
+    <path fill="url(#wave3Grad)" opacity="0.6">
+      <animate attributeName="d" dur="14s" repeatCount="indefinite" values="
+        M0,182 C60,172 130,190 200,182 C270,172 340,188 420,180 C500,172 570,188 650,182 C710,176 750,184 800,180 L800,220 L0,220 Z;
+        M0,178 C60,190 130,176 200,186 C270,178 340,172 420,184 C500,190 570,176 650,186 C710,182 750,178 800,184 L800,220 L0,220 Z;
+        M0,186 C60,176 130,188 200,178 C270,188 340,182 420,174 C500,184 570,194 650,180 C710,174 750,186 800,176 L800,220 L0,220 Z;
+        M0,182 C60,172 130,190 200,182 C270,172 340,188 420,180 C500,172 570,188 650,182 C710,176 750,184 800,180 L800,220 L0,220 Z
+      "/>
+    </path>
+
+    <path fill="url(#wave2Grad)" opacity="0.7">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
+        M0,188 C50,180 110,196 190,186 C270,176 340,194 430,184 C520,174 600,192 690,186 C735,183 768,188 800,185 L800,220 L0,220 Z;
+        M0,184 C50,194 110,182 190,190 C270,182 340,176 430,188 C520,194 600,180 690,190 C735,186 768,182 800,188 L800,220 L0,220 Z;
+        M0,190 C50,182 110,192 190,182 C270,192 340,186 430,178 C520,186 600,196 690,184 C735,180 768,190 800,182 L800,220 L0,220 Z;
+        M0,188 C50,180 110,196 190,186 C270,176 340,194 430,184 C520,174 600,192 690,186 C735,183 768,188 800,185 L800,220 L0,220 Z
+      "/>
+    </path>
+
+    <path fill="url(#wave1Grad)" opacity="0.8">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+        M0,194 C40,186 90,200 170,192 C250,184 320,198 410,190 C500,182 570,196 670,190 C720,187 760,193 800,189 L800,220 L0,220 Z;
+        M0,189 C40,198 90,188 170,196 C250,190 320,184 410,194 C500,198 570,186 670,194 C720,191 760,187 800,193 L800,220 L0,220 Z;
+        M0,196 C40,188 90,194 170,186 C250,196 320,192 410,184 C500,190 570,200 670,188 C720,184 760,194 800,186 L800,220 L0,220 Z;
+        M0,194 C40,186 90,200 170,192 C250,184 320,198 410,190 C500,182 570,196 670,190 C720,187 760,193 800,189 L800,220 L0,220 Z
+      "/>
+    </path>
+  </g>
+
+  <!-- КОМПЬЮТЕР -->
+  <g transform="translate(608, 16)" opacity="0.9">
+    <ellipse cx="48" cy="140" rx="60" ry="18" fill="url(#screenReflect)" filter="url(#monitorGlow)"/>
+    <rect x="0" y="8" width="96" height="68" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="5" y1="13" x2="91" y2="13" stroke="#8b949e" stroke-width="0.3" opacity="0.25"/>
+    <rect x="5" y="14" width="86" height="54" rx="3" fill="url(#screenGrad)"/>
+    <text x="10" y="26" font-family="'Courier New',monospace" font-size="6.5" fill="#8b949e" opacity="0.35">1</text>
+    <text x="10" y="34" font-family="'Courier New',monospace" font-size="6.5" fill="#8b949e" opacity="0.35">2</text>
+    <text x="10" y="42" font-family="'Courier New',monospace" font-size="6.5" fill="#8b949e" opacity="0.35">3</text>
+    <text x="10" y="50" font-family="'Courier New',monospace" font-size="6.5" fill="#8b949e" opacity="0.35">4</text>
+    <text x="10" y="58" font-family="'Courier New',monospace" font-size="6.5" fill="#8b949e" opacity="0.35">5</text>
+    <rect x="18" y="21" width="20" height="3.5" rx="0.8" fill="#d2a8ff" opacity="0.65"/>
+    <rect x="41" y="21" width="28" height="3.5" rx="0.8" fill="#79c0ff" opacity="0.55"/>
+    <rect x="72" y="21" width="5" height="3.5" rx="0.8" fill="#f78166" opacity="0.45"/>
+    <rect x="24" y="29" width="14" height="3.5" rx="0.8" fill="#d2a8ff" opacity="0.6"/>
+    <rect x="41" y="29" width="22" height="3.5" rx="0.8" fill="#c9d1d9" opacity="0.45"/>
+    <rect x="66" y="29" width="10" height="3.5" rx="0.8" fill="#f78166" opacity="0.4"/>
+    <rect x="30" y="37" width="18" height="3.5" rx="0.8" fill="#d2a8ff" opacity="0.55"/>
+    <rect x="51" y="37" width="26" height="3.5" rx="0.8" fill="#8b949e" opacity="0.4"/>
+    <rect x="24" y="45" width="16" height="3.5" rx="0.8" fill="#79c0ff" opacity="0.5"/>
+    <rect x="43" y="45" width="24" height="3.5" rx="0.8" fill="#8b949e" opacity="0.35"/>
+    <rect x="18" y="53" width="10" height="3.5" rx="0.8" fill="#f78166" opacity="0.5"/>
+    <rect x="31" y="53" width="30" height="3.5" rx="0.8" fill="#79c0ff" opacity="0.4"/>
+    <rect x="64" y="53" width="1.5" height="4.5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="18" y="61" width="0" height="3.5" rx="0.8" fill="#d2a8ff" opacity="0.45">
+      <animate attributeName="width" values="0;38;38;0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="48" cy="74" r="1.5" fill="#3fb950" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="8" width="96" height="68" rx="5" fill="#79c0ff" opacity="0.02" filter="url(#monitorGlow)"/>
+    <rect x="40" y="76" width="16" height="8" rx="1" fill="#30363d"/>
+    <rect x="29" y="83" width="38" height="3" rx="1.5" fill="#30363d"/>
+    <rect x="4" y="94" width="88" height="24" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="10" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="17" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="24" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="31" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="38" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="45" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="52" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="59" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="66" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="73" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="80" y="98" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="12" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="19" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="26" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="33" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="40" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="47" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="54" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="61" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="68" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="75" y="105" width="5" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="26" y="112" width="44" height="4" rx="1" fill="#21262d" stroke="#30363d" stroke-width="0.3"/>
+    <rect x="38" y="98" width="5" height="4" rx="1" fill="#d2a8ff" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="61" y="105" width="5" height="4" rx="1" fill="#79c0ff" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="0.7s" repeatCount="indefinite" begin="0.25s"/>
+    </rect>
+    <rect x="24" y="98" width="5" height="4" rx="1" fill="#f78166" opacity="0">
+      <animate attributeName="opacity" values="0;0.45;0" dur="0.8s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    <rect x="52" y="98" width="5" height="4" rx="1" fill="#d2a8ff" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+    </rect>
+    <rect x="40" y="105" width="5" height="4" rx="1" fill="#79c0ff" opacity="0">
+      <animate attributeName="opacity" values="0;0.45;0" dur="0.85s" repeatCount="indefinite" begin="0.65s"/>
+    </rect>
+    <rect x="26" y="112" width="44" height="4" rx="1" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" values="0;0.2;0" dur="1.8s" repeatCount="indefinite" begin="0.9s"/>
+    </rect>
+    <g transform="translate(102, 96)">
+      <ellipse cx="10" cy="24" rx="9" ry="2" fill="#0d1117" opacity="0.3"/>
+      <path d="M3,5 Q3,0 10,0 Q17,0 17,5 L17,18 Q17,24 10,24 Q3,24 3,18 Z" fill="#1e2736" stroke="#30363d" stroke-width="1"/>
+      <line x1="10" y1="1" x2="10" y2="10" stroke="#30363d" stroke-width="0.5" opacity="0.6"/>
+      <rect x="8.5" y="4" width="3" height="5" rx="1.5" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+      <path d="M3,5 Q3,0 10,0 L10,10 L3,10 Z" fill="#d2a8ff" opacity="0">
+        <animate attributeName="opacity" values="0;0.3;0" dur="2.5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M17,5 Q17,0 10,0 L10,10 L17,10 Z" fill="#79c0ff" opacity="0">
+        <animate attributeName="opacity" values="0;0.25;0" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+      </path>
+      <rect x="8.5" y="4" width="3" height="5" rx="1.5" fill="#8b949e" opacity="0">
+        <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+      </rect>
+      <circle cx="10" cy="20" r="1" fill="#f78166" opacity="0.3">
+        <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Рамка -->
+  <rect x="1" y="1" width="798" height="218" fill="none" stroke="#30363d" stroke-width="1" rx="12"/>
+
+  <!-- ТЕКСТ -->
+  <text x="280" y="42" font-family="'Segoe UI',Ubuntu,Arial,sans-serif"
+        font-size="38" font-weight="700" fill="url(#nameGrad)"
+        text-anchor="middle" filter="url(#glow)">
+    Jlychee
+  </text>
+
+  <text x="280" y="65" font-family="'Segoe UI',Ubuntu,Arial,sans-serif"
+        font-size="14" fill="#8b949e" text-anchor="middle" letter-spacing="4">
+    BACKEND DEVELOPER
+  </text>
+
+  <line x1="140" y1="78" x2="420" y2="78" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="x1" values="155;140;155" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="405;420;405" dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Ряд 1 — направления -->
+  <rect x="108" y="88" width="78" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#d2a8ff" stroke-width="1" opacity="0.7"/>
+  <text x="147" y="103" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#d2a8ff" text-anchor="middle">Backend</text>
+
+  <rect x="196" y="88" width="56" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#79c0ff" stroke-width="1" opacity="0.7"/>
+  <text x="224" y="103" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#79c0ff" text-anchor="middle">APIs</text>
+
+  <rect x="262" y="88" width="86" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#56d4c8" stroke-width="1" opacity="0.7"/>
+  <text x="305" y="103" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#56d4c8" text-anchor="middle">GameDev</text>
+
+  <rect x="358" y="88" width="100" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#f78166" stroke-width="1" opacity="0.7"/>
+  <text x="408" y="103" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#f78166" text-anchor="middle">Automation</text>
+
+  <!-- Ряд 2 — стиль + технологии -->
+  <rect x="112" y="116" width="100" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#30363d" stroke-width="1" opacity="0.9"/>
+  <text x="162" y="131" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#c9d1d9" text-anchor="middle">Pet Projects</text>
+
+  <rect x="222" y="116" width="72" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#512bd4" stroke-width="1" opacity="0.7"/>
+  <text x="258" y="131" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#d2a8ff" text-anchor="middle">C# / .NET</text>
+
+  <rect x="304" y="116" width="68" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#3572A5" stroke-width="1" opacity="0.7"/>
+  <text x="338" y="131" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#79c0ff" text-anchor="middle">Python</text>
+
+  <rect x="382" y="116" width="78" height="22" rx="11" fill="#0d1117" fill-opacity="0.7" stroke="#30363d" stroke-width="1" opacity="0.9"/>
+  <text x="421" y="131" font-family="'Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#c9d1d9" text-anchor="middle">Learning</text>
+
+  <!-- Статус -->
+  <circle cx="236" cy="155" r="3" fill="#3fb950" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;3.8;3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="298" y="159" font-family="'Segoe UI',Ubuntu,Arial,sans-serif"
+        font-size="11" fill="#3fb950" text-anchor="middle" opacity="0.9">
+    Open to collaborate
+  </text>
+</svg>
