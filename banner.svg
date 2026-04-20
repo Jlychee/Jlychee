@@ -176,9 +176,6 @@
     <rect x="18" y="61" width="0" height="3.5" rx="0.8" fill="#d2a8ff" opacity="0.45">
       <animate attributeName="width" values="0;38;38;0" dur="5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="48" cy="74" r="1.5" fill="#3fb950" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
-    </circle>
     <rect x="0" y="8" width="96" height="68" rx="5" fill="#79c0ff" opacity="0.02" filter="url(#monitorGlow)"/>
     <rect x="40" y="76" width="16" height="8" rx="1" fill="#30363d"/>
     <rect x="29" y="83" width="38" height="3" rx="1.5" fill="#30363d"/>
