@@ -116,8 +116,4 @@ srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution
 src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
  />
   </picture>
-</div><div align="center">
-  <img 
-src="https://komarev.com/ghpvc/?username=Jlychee&style=for-the-badge&color=d2a8ff&label=PROFILE+VIEWS"
- alt="Profile Views"/>
 </div>
